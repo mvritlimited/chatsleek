@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-	authetication "src/m/v2/src/authentication"
+	"src/m/v2/src/authentication"
 
 	"github.com/gorilla/mux"
 )
@@ -29,7 +29,7 @@ func main() {
 
 	// -> Register Auth Routes here ->
 	auth := router.PathPrefix("/auth").Subrouter()
-	authetication.RegisterAuthRoutes(auth)
+	authentication.RegisterAuthRoutes(auth)
 
 	router.HandleFunc("/fetch_details", YourHandler).Methods("POST")
 
