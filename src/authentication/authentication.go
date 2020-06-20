@@ -1,4 +1,4 @@
-package authetication
+package authentication
 
 import (
 	"encoding/json"
