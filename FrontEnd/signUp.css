@@ -1,0 +1,14 @@
+body{
+    /* background-image: url("https://pd1eu.badoocdn.com/v2/-/-/i/hotornot_v2/homepage/header.5b3323a59a6a3b3cb355.svg");
+    background-repeat: no-repeat;
+    background-size: 100% auto; */
+    background-color: white;
+}
+.upper{
+    background-image: url("https://pd1eu.badoocdn.com/v2/-/-/i/hotornot_v2/homepage/header.5b3323a59a6a3b3cb355.svg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: #5830ab;
+    min-height: 73vh;
+}
+
